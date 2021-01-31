@@ -1,0 +1,19 @@
+{
+  "name": "duke-ring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --declaration",
+    "start": "npm run build && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "ring-client-api": "^9.14.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0"
+  }
+}
